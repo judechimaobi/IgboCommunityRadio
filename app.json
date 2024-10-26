@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "igbocommunityradio",
-    "slug": "igbocommunityradio",
+    "slug": "igbo-community-radio",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.judechimaobi.igbocommunityradio"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,12 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "647f4188-a336-4065-a1e4-933cb428a09f"
+      }
+    },
+    "owner": "judechimaobi"
   }
 }
